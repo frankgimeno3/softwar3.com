@@ -2,8 +2,8 @@ import React from 'react';
 
 const Seccion2: React.FC = () => {
   return (
-    <section>
-      <h2>Nuestros Servicios</h2>
+    <section className='flex flex-col p-5 text-end'>
+      <h2 className='text-2xl'>Nuestros Servicios</h2>
       <ul>
         <li>
           <strong>Páginas Web Personalizadas:</strong> Creamos páginas web modernas y atractivas que reflejan la identidad única de tu empresa. Desde páginas informativas hasta tiendas en línea, nuestro enfoque es siempre cautivar a tus clientes y mejorar la experiencia de usuario.
